@@ -9,7 +9,7 @@ const _=require('lodash');
 const homeStartingContent = "This is the first site I have created from scratch Independently and so I want it to be special. I'll  be talking  about the courses I have been doing and the projects I'll be making and how you guys could reciprocate the same. So if you are interested to take a piece of the pie I expect you to bookmark this site for future reference . I have made certain mistakes in the past and so don't want people to reiterate the same.  The analogy Learn from your mistakes  here fits perfectly. Pleased to welcome you all on board with us on this journey😊 "
 const app = express();
 let posts=[];
-mongoose.connect("mongodb+srv://pradumn-garg:Aarpga4050@cluster0.i1m3m.mongodb.net/blogDB");
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.i1m3m.mongodb.net/blogDB");
 
 const postschema={
   title :String,
