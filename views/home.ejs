@@ -5,9 +5,10 @@
 <p><%=HomeContent%></p>
 
 <%postsList.forEach(function(post){%>
-    <h1><%=post.title1%></h1>
-    <p><%=post.post1.substring(0,100)+"..."%>
-        <a href="/posts/<%=post.title1%>">Read More</a></p>
+    <h1><%=post.title%></h1>
+    <p><%=post.content.substring(0,100)+"..."%>
+        <a href="/posts/<%=post._id%>">Read More</a>
+        </p>
     
 <%});%>
    
